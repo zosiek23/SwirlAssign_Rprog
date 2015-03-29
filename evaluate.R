@@ -31,6 +31,15 @@
 
 evaluate <- function(func, dat){
   # Write your code here!
-  sum <- sum(dat)
+  func(dat)
+    #sum <- function(dat){
+     #s <- sum(dat)
+     #}
+    #median <- function(dat){
+     # med <- median(dat)
+    #}
+     # floor<- function(dat){
+      #  fl <- floor(dat)
+    #}
   # Remember: the last expression evaluated will be returned! 
 }
